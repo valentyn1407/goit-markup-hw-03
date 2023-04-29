@@ -246,7 +246,7 @@ body {
   margin-right: 0;
 }
 
-.text-list {
+.text-features {
   width: calc((100% - 72px) / 4);
 }
 
@@ -264,7 +264,7 @@ body {
   margin-right: 0;
 }
 
-.img-list {
+.images-list {
   width: calc((100% - 48px) / 3);
 }
 
@@ -293,7 +293,7 @@ body {
   margin-right: 0;
 }
 
-.list-company-members {
+.members-list {
   width: calc((100% - 72px) / 4);
 }
 
