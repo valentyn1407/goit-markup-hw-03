@@ -24,9 +24,10 @@ body {
 
 .list {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0; */
+  padding: 0;
   list-style: none;
 }
 
@@ -246,7 +247,7 @@ body {
   margin-right: 0;
 }
 
-.text-features {
+.text-list {
   width: calc((100% - 72px) / 4);
 }
 
@@ -264,7 +265,7 @@ body {
   margin-right: 0;
 }
 
-.images-list {
+.img-list {
   width: calc((100% - 48px) / 3);
 }
 
@@ -293,7 +294,7 @@ body {
   margin-right: 0;
 }
 
-.members-list {
+.list-company-members {
   width: calc((100% - 72px) / 4);
 }
 
