@@ -264,7 +264,7 @@ body {
   margin-right: 0;
 }
 
-.specialization-list:first-child {
+.img-list {
   width: calc((100% - 48px) / 3);
 }
 
@@ -293,7 +293,7 @@ body {
   margin-right: 0;
 }
 
-.list-members:first-child {
+.list-company-members {
   width: calc((100% - 72px) / 4);
 }
 
