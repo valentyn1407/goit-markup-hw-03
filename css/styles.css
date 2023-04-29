@@ -237,7 +237,7 @@ body {
 
 .features-list {
   display: flex;
-  align-items: baseline;
+  margin: auto;
   padding: 0 15px;
   gap: 24px;
 }
