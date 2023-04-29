@@ -198,11 +198,6 @@ body {
   color: var(--main-title-color);
 }
 
-.text-list {
-  width: 264px;
-  height: 104px;
-}
-
 .suptitle {
   text-align: start;
   margin-top: 0;
@@ -250,7 +245,7 @@ body {
   margin-right: 0;
 }
 
-.text-list {
+.features-list:first-child {
   width: calc((100% - 72px) / 4);
 }
 
@@ -268,7 +263,7 @@ body {
   margin-right: 0;
 }
 
-.img-list {
+.specialization-list:first-child {
   width: calc((100% - 48px) / 3);
 }
 
@@ -297,6 +292,10 @@ body {
   margin-right: 0;
 }
 
+.list-members:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
 .list-company-members {
   width: 264px;
   height: 380px;
@@ -304,10 +303,6 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
-}
-
-.list-company-members {
-  width: calc((100% - 72px) / 4);
 }
 
 .name-workers {
@@ -402,8 +397,6 @@ body {
 
 .link-portfolio {
   margin-bottom: 48px;
-  width: 360px;
-  height: 300px;
   border: 1px solid #e7e9fc;
 }
 
