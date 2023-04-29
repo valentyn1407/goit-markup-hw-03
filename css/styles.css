@@ -54,6 +54,7 @@ body {
   font-family: 'Raleway', sans-serif;
   display: inline-block;
   padding: 24px 0;
+  margin-bottom: 16px;
   margin-right: 76px;
   font-weight: 800;
   font-size: 18px;
@@ -155,7 +156,7 @@ body {
   margin: auto;
   width: 1440px;
   height: 600px;
-  padding: 180px 0 188px;
+  padding: 188px 0 188px;
   text-align: center;
   background: #2e2f42;
 }
@@ -250,7 +251,7 @@ body {
 }
 
 .first-text-list {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .specialization-company {
@@ -268,7 +269,7 @@ body {
 }
 
 .first-img-list {
-  flex-basis: calc((100% - 3 * 16px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .members-company {
@@ -306,7 +307,7 @@ body {
 }
 
 .first-company-members {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .name-workers {
@@ -416,6 +417,10 @@ body {
 
 .list-link {
   width: calc((100% - 48px) / 3);
+}
+
+.img {
+  display: block;
 }
 
 .application {
