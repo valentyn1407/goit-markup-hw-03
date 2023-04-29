@@ -237,6 +237,7 @@ body {
 
 .features-list {
   display: flex;
+  align-items: baseline;
   padding: 0 15px;
   gap: 24px;
 }
@@ -245,7 +246,7 @@ body {
   margin-right: 0;
 }
 
-.features-list:first-child {
+.text-list {
   width: calc((100% - 72px) / 4);
 }
 
