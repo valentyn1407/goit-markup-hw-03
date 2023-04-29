@@ -250,7 +250,7 @@ body {
   margin-right: 0;
 }
 
-.first-text-list {
+.text-list {
   width: calc((100% - 72px) / 4);
 }
 
@@ -268,7 +268,7 @@ body {
   margin-right: 0;
 }
 
-.first-img-list {
+.img-list {
   width: calc((100% - 48px) / 3);
 }
 
@@ -306,7 +306,7 @@ body {
   background-color: #ffffff;
 }
 
-.first-company-members {
+.list-company-members {
   width: calc((100% - 72px) / 4);
 }
 
