@@ -16,7 +16,17 @@ body {
   background-color: var(--background-color);
 }
 
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   width: 1158px;
@@ -25,9 +35,8 @@ body {
 .list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: auto;
-  margin-bottom: auto;
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -43,8 +52,8 @@ body {
 
 .nav-container {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 
 .menu {
@@ -55,7 +64,20 @@ body {
   font-family: 'Raleway', sans-serif;
   display: inline-block;
   padding: 24px 0;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+  margin-right: 76px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  margin-bottom: 18px;
   margin-right: 76px;
   font-weight: 800;
   font-size: 18px;
@@ -239,8 +261,6 @@ body {
 
 .features-list {
   display: flex;
-
-  padding: 0 15px;
   gap: 24px;
 }
 
@@ -257,8 +277,6 @@ body {
 }
 
 .specialization-list {
-  padding: 0 15px;
-  margin: auto;
   gap: 24px;
 }
 
@@ -281,13 +299,11 @@ body {
 
 .img-list {
   box-sizing: border-box;
-  width: 360px;
-  height: 300px;
+
   border: 1px solid #e7e9fc;
 }
 
 .list-members {
-  padding: 0 15px;
   gap: 24px;
 }
 
@@ -347,7 +363,6 @@ body {
 }
 
 .text-item-footer {
-  margin: 0;
   max-width: 264px;
   font-weight: 400;
   font-size: 16px;
