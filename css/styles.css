@@ -177,7 +177,6 @@ p {
 
 .hero {
   margin: auto;
-  width: 1440px;
   padding: 188px 0 188px;
   text-align: center;
   background: #2e2f42;
@@ -378,7 +377,6 @@ p {
 
 .footer {
   margin: auto;
-  width: 1440px;
   padding: 100px 0;
   background: #2e2f42;
 }
