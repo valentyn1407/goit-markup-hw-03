@@ -64,7 +64,6 @@ p {
   font-family: 'Raleway', sans-serif;
   display: inline-block;
   padding: 24px 0;
-  /* margin-bottom: 16px; */
   margin-right: 76px;
   font-weight: 800;
   font-size: 18px;
@@ -288,10 +287,6 @@ p {
   margin-right: 0;
 }
 
-.img-list {
-  width: calc((100% - 48px) / 3);
-}
-
 .members-company {
   padding: 120px 0 120px;
   background-color: #f4f4fd;
@@ -303,8 +298,7 @@ p {
 
 .img-list {
   box-sizing: border-box;
-
-  border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
 
 .list-members {
